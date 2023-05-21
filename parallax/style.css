@@ -1,0 +1,24 @@
+.text {
+   height: 200px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.parallax {
+   margin-left: 60px;
+   margin-top: 50px;
+   width: 50%;
+   height: 800px;
+   background-image: url(https://pbs.twimg.com/media/FYkf-J7agAAzAnp?format=jpg&name=medium);
+   background-repeat:space;
+   background-attachment: fixed;
+   border-radius: 90%;
+}
+
+.img  {
+   position: absolute   ;
+   margin: 0 auto ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

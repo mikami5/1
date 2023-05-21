@@ -1,0 +1,17 @@
+body {
+   background-color: rgba(0, 255, 145, 0.275);
+}
+
+
+.all {
+   text-align: center;
+   padding: 40vh 50vh;
+}
+
+.all button {
+   border: none;
+   background: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 5px;
+}

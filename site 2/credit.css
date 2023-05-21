@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Mulish', sans-serif;
+}
+
+/*----------------------- Header ------------------------------ */
+
+.container {
+   max-width: 1450px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.header {
+   position: absolute;
+   padding-top: 30px;
+   padding-bottom: 100px;
+   width: 100%;
+}
+
+.link {
+   text-decoration: none;
+   color: white;
+   padding-right: 40px;
+   transition: 0.5s;
+}
+
+.link:hover {
+   transition: 0.5s;
+   margin: 20px;
+}
+
+.header-inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: auto;
+}
+
+.button {
+   background-color: #FA3C45;
+   color: white;
+   padding: 15px 35px;
+   border: none;
+   border-radius: 8px;
+}
+
+/*----------------------- Heading ------------------------------ */
+
+.heading {
+   width: 100%;
+   height: 350px;
+   background-color: #C5010A;
+   color: white;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.heading h1 {
+   padding-top: 150px;
+   font-weight: 700;
+   font-size: 59px;
+   line-height: 120%;
+}
+
+/*----------------------- Main ------------------------------ */
+
+body {
+   background-color: #E5E5E5;
+}
+
+main {
+   max-width: 1285px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+main h4:first-child {
+   padding-top: 50px;
+}
+
+.tesla {
+   display: flex;
+   justify-content: space-between;
+}
+
+/*----------------------- Left Side ------------------------------ */
+
+.main-text-2 {
+   width: 810px;
+}
+
+.main-text-2 h4 {
+   font-weight: 700;
+   font-size: 31px;
+   line-height: 120%;
+   color: #333333;
+   margin-bottom: 24px;
+}
+
+.main-text-2 p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+   color: #92929D;
+}
+
+.main-img-1 img {
+   margin-top: 50px;
+}
+
+main h4:first-child {
+   padding-top: 50px;
+}
+
+.price-input {
+   padding-left: 30px;
+}
+
+.price-input h4 {
+   padding-bottom: 10px;
+   color: #11142D;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+.price-input input {
+   width: 720px;
+   height: 52px;
+   border: 1px solid #FA3C45;
+   border-radius: 8px;
+   padding-left: 15px;
+}
+
+.calculator {
+   margin-top: 70px;
+   width: 816px;
+   height: 659px;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+}
+
+.calculator h2 {
+   padding-top: 40px;
+   margin-left: 30px;
+   color: #11142D;
+   font-weight: 700;
+   font-size: 39px;
+   line-height: 120%;
+}
+
+.calculator p {
+   color: #92929D;
+   padding-top: 20px;
+   margin-left: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+.rate {
+   width: 779px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.rate-input input {
+   padding-left: 15px;
+   width: 325px;
+   height: 52px;
+   border: 1px solid #FA3C45;
+   border-radius: 8px;
+}
+
+.rate-input h4 {
+   padding-bottom: 10px;
+   color: #11142D;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+.button-calculator button {
+   width: 118px;
+   height: 47px;
+   background: #FA3C45;
+   color: white;
+   border-radius: 8px;
+   border-color: #FA3C45;
+   margin: 50px 30px;
+   transition: 0.5s;
+}
+
+.button-calculator button:hover {
+   background-color: white;
+   border-color: white;
+   color: #FA3C45;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+/*----------------------- Right Side ------------------------------ */
+
+.offer {
+   margin-top: 50px;
+   background-color: #C5010A;
+   width: 425px;
+   height: 560px;
+   border-radius: 8px;
+}
+
+.offer-input {
+   padding-top: 40%;
+   color: #fff;
+   text-align: center;
+}
+
+.offer-input h3 {
+   width: 250px;
+   font-weight: 700;
+   font-size: 39px;
+   line-height: 120%;
+   padding-left: 20%;
+}
+
+.offer-input p {
+   width: 220px;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 120%;
+   margin: 30px 0;
+   padding-left: 24%;
+}
+
+.button-details button {
+   width: 102px;
+   height: 40px;
+   border: 2px solid #FFFFFF;
+   border-radius: 8px;
+   background: transparent;
+   color: white;
+   transition: 0.5s;
+}
+
+.button-details button:hover {
+   background: white;
+   color: #C5010A;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.contact {
+   margin-top: 10px;
+   width: 425px;
+   height: 560px;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+.contact h4 {
+   color: #11142D;
+   text-align: center;
+   font-weight: 700;
+   font-size: 39px;
+   line-height: 120%;
+}
+
+.contact-input {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact-input input {
+   width: 300px;
+   height: 45px;
+   border: 1px solid #FA3C45;
+   border-radius: 8px;
+   padding-left: 7px;
+   margin-top: 20px;
+}
+
+.contact-input input:last-child {
+   width: 300px;
+   height: 125px;
+   border: 1px solid #FA3C45;
+   border-radius: 8px;
+   padding-left: 7px;
+   margin-top: 20px;
+}
+
+.button-contact button {
+   width: 168px;
+   height: 53px;
+   background: #FA3C45;
+   color: white;
+   border-radius: 8px;
+   border-color: #FA3C45;
+   text-align: center;
+   margin: 35px 30%;
+   transition: 0.5s;
+}
+
+.button-contact button:hover {
+   background-color: white;
+   border-color: white;
+   color: #FA3C45;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+/*----------------------- Ending ------------------------------ */
+
+.download {
+   margin-top: 100px;
+   width: 100%;
+   height: 720px;
+   background-color: #fff;
+}
+
+.download-inner {
+   display: flex;
+}
+
+.download-text {
+   padding-left: 200px;
+   margin-top: 40px;
+}
+
+.download-text h1 {
+   margin-top: 100px;
+   font-family: 'Mulish', sans-serif;
+   font-size: 48px;
+   color: #11142D;
+}
+
+.download-text p {
+   font-family: 'Mulish', sans-serif;
+   color: #92929D;
+   padding-top: 32px;
+   font-size: 16px;
+   width: 550px;
+   margin: 0 auto;
+}
+
+.phone img {
+   padding-top: 80px;
+}
+
+.correct {
+   margin-top: 20px;
+   margin-right: 32px;
+}
+
+.correct-gam {
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+}
+
+.correct-gam h2 {
+   color: #11142D;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+.correct-gam img {
+   padding: 7px;
+}
+
+.app {
+   width: 500px;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+}
+
+.news {
+   margin-top: 200px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.news h2 {
+   color: #11142D;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 120%;
+}
+
+.news p {
+   margin: 30px 0;
+   color: #92929D;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+.input-news {
+   width: 400px;
+   margin: 40px auto;
+   display: flex;
+   justify-content: space-around;
+}
+
+.button-news button {
+   width: 148px;
+   height: 45px;
+   background: #FA3C45;
+   color: white;
+   border-radius: 8px;
+   border-color: #FA3C45;
+   transition: 0.5s;
+}
+
+.button-news button:hover {
+   background-color: white;
+   border-color: #FA3C45;
+   color: #FA3C45;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.button-news-2 button {
+   width: 128px;
+   height: 45px;
+   background: transparent;
+   color: #FA3C45;
+   border-radius: 8px;
+   border-color: #FA3C45;
+   transition: 0.5s;
+}
+
+.button-news-2 button:hover {
+   background-color: #FA3C45;
+   border-color: #FA3C45;
+   color: #fff;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+/*----------------------- Footer ------------------------------ */
+
+footer {
+   background-color: #C5010A;
+   width: 100%;
+   height: 400px;
+   color: #fff;
+}
+
+.footer {
+   width: 100%;
+   max-width: 1420px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-column {
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+}
+
+.footer-column h6 {
+   width: 200px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 130%;
+   margin: 80px;
+}
+
+.footer-column h5 {
+   width: 200px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 130%;
+}
+
+.footer-column:first-child {
+   display: flex;
+   align-items: baseline;
+}
+
+.footer-column img:last-child {
+   margin-right: 20px;
+}
+
+.footer-column a {
+   color: white;
+   text-decoration: none;
+   padding-top: 20px;
+}
+
+.footer-column h4 {
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 120%;
+}
+
+
+.footer-input {
+   margin-bottom: 20px;
+}
